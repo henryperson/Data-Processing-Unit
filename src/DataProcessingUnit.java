@@ -270,7 +270,7 @@ public class DataProcessingUnit {
 	 * 
 	 * @throws Exception
 	 */
-	public static void collegeMajorsQuestion2() throws Exception {
+	public static void collegeMajorsQuestion2() throws IOException {
 		String[] arrInitial = {"1", "1", "1", "2", "1", "1", "2", "1", "1"};
 		Stream<String> stream = Files.lines(Paths.get("data/college-majors.csv"));
 		String[] leastEmployed = stream
@@ -285,9 +285,10 @@ public class DataProcessingUnit {
 
 	/**
 	 * 
+	 * @throws IOException 
 	 * @throws Exception
 	 */
-	public static void collegeMajorsQuestion3() throws Exception {
+	public static void collegeMajorsQuestion3() throws IOException {
 		String[] arrInitial = {"1", "1", "1", "2", "1", "1", "2", "1", "1"};
 		Stream<String> stream = Files.lines(Paths.get("data/college-majors.csv"));
 		String[] highestEarning = stream
