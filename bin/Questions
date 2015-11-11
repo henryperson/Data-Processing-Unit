@@ -1,0 +1,17 @@
+College majors
+
+1. Most employed (pct)
+- reduce. map
+2. Least employed (pct)
+- reduce, map
+3. College majors that have higher than x% chance of earning six figures
+- reduce, filter, map
+
+Flying etiquette
+
+1. How much more likely are tall people to complain about seats reclining than short people?
+2. How sympathetic towards unruly kids are people who don't have kids under 18?
+- filter, reduce
+3. How antisocial are people on planes?
+
+Star wars
